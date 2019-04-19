@@ -69,7 +69,7 @@ public class MaxHeap<E extends Comparable<E>> {
         return ret;
     }
 
-    private E findMax() {
+    public E findMax() {
         if (data.getSize() == 0) {
             throw new IllegalArgumentException("Heap doesn't exist");
         }
